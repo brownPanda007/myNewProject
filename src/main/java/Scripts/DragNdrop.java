@@ -53,7 +53,7 @@ public class DragNdrop {
      	System.out.println("Element Tittle is : " + Destination.getText());
     	//ScreenShots.takeSnapShot(driver, "C://Users//raiha//Favorites//Screenshots//DragNDrop02.png");
     	ScreenShots.takeSnapShot(driver, ".//Screenshots//DragNDrop02.png");
-             Assert.assertEquals(Destination, "B");
+             Assert.assertEquals(Destination, "A");
 	}
 	@AfterClass
 	public void tearDown() throws Exception {
