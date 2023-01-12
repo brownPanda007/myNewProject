@@ -13,11 +13,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import Pages_Hero_App.Home_Hero_App;
 import Utilities.ScreenShots;
+
+
 
 public class DragNdrop {
 	WebDriver driver=new EdgeDriver();  
@@ -55,7 +58,7 @@ public class DragNdrop {
     	ScreenShots.takeSnapShot(driver, ".//Screenshots//DragNDrop02.png");
              Assert.assertEquals(Destination, "A");
 	}
-	@AfterClass
+	@AfterTest
 	public void tearDown() throws Exception {
 		driver.quit();
 	}
