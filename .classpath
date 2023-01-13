@@ -26,5 +26,6 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/Users/apache-log4j-2.3.2-bin/log4j-core-2.3.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

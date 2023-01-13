@@ -2,12 +2,12 @@
 <suite name="SuiteRegression2.1">
   <test thread-count="5" name="TestRegression2.1">
     <classes>
-      <class name="Scripts.DragNdrop"/>
-      <class name="Scripts.test_Upload"/>
-      <class name="Scripts.CheckBox"/>
-      <class name="Scripts.AddRemove"/>
-       <class name="Scripts.Shoping"/>
-      <class name="Scripts.DropDown"/>
+      <class name="Scripts.DragNdropTest"/>
+      <class name="Scripts.test_UploadTest"/>
+      <class name="Scripts.CheckBoxTest"/>
+      <class name="Scripts.AddRemoveTest"/>
+       <class name="Scripts.ShoppingTest"/>
+      <class name="Scripts.DropDownTest"/>
     </classes>
   </test> <!-- TestRegression2.1 -->
 </suite> <!-- SuiteRegression2.1 -->
