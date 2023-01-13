@@ -3,13 +3,6 @@
 <suite name="Failed suite [SuiteRegression2.1]">
   <test thread-count="5" name="TestRegression2.1(failed)">
     <classes>
-      <class name="Scripts.Shoping">
-        <methods>
-          <include name="TransactionCom"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Scripts.Shoping -->
       <class name="Scripts.DragNdrop">
         <methods>
           <include name="dragdrop"/>

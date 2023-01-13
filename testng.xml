@@ -5,9 +5,9 @@
       <class name="Scripts.DragNdrop"/>
       <class name="Scripts.test_Upload"/>
       <class name="Scripts.CheckBox"/>
-      <class name="Scripts.Shoping"/>
-      <class name="Scripts.DropDown"/>
       <class name="Scripts.AddRemove"/>
+       <class name="Scripts.Shoping"/>
+      <class name="Scripts.DropDown"/>
     </classes>
   </test> <!-- TestRegression2.1 -->
 </suite> <!-- SuiteRegression2.1 -->
