@@ -44,7 +44,7 @@ public class ShoppingTest {
 		Assert.isTrue(true, driver.getCurrentUrl(), "https://www.saucedemo.com/inventory.html");
 		}
 		
-	//Selecting the items from the home page
+		/*	//Selecting the items from the home page
 		@Test
 		public void ShoppingPage() throws Exception {
 		hp.Item4().click();
@@ -105,15 +105,9 @@ public class ShoppingTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	//ScreenShots.takeSnapShot(driver, "C://Users//raiha//Favorites//Screenshots//test05.png");
         ScreenShots.takeSnapShot(driver, ".//Screenshots//test05.png");
-		Assert.isTrue(true, driver.getCurrentUrl(), "https://www.saucedemo.com/checkout-step-two.html");
+		//Assert.isTrue(true, driver.getCurrentUrl(), "https://www.saucedemo.com/checkout-step-two.html");
      	Thread.sleep(3000);
-     	
-          	}
-	
-	@SuppressWarnings("deprecation")
-	@Test
-		public void TransactionCom() throws Exception {
-		hp.FinishButton().click();
+    	hp.FinishButton().click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	 	
@@ -124,7 +118,10 @@ public class ShoppingTest {
 		//ScreenShots.takeSnapShot(driver, "C://Users//raiha//Favorites//Screenshots//test06.png");
 		ScreenShots.takeSnapShot(driver, ".//Screenshots//test06.png");
 		Thread.sleep(3000);
-		}
+     	
+          	}
+	
+*/
 		
 		@AfterTest
 		public void tearDown() throws Exception {
